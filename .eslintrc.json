@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "cypress/global": true
+    },
+    "extends": [
+        "google",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "cypress"
+    ],
+    "rules": {
+        "object-curly-spacing": "off",
+        "quotes": "off",
+        "max-len": "off",
+        "require-jsdoc": "off",
+        "indent":"off",
+        "comma-dangle": "off",
+        "semi": "off",
+        "quote-props": "off",
+        "no-unused-vars": "off",
+        "react/jsx-no-undef": "off",
+        "react/prop-types": "off",
+        "operator-linebreak": "off",
+        "curly": "off",
+        "react/jsx-key": "off",
+        "no-invalid-this": "off",
+        "space-before-function-paren":"off"
+    }
+}
