@@ -96,7 +96,7 @@ describe("LoginInput component", () => {
       <BrowserRouter>
         <LoginInput
           errorMessage={fakeErrorMessage}
-          mockOnLoginHandler={mockOnLoginHandler}
+          onLoginHandler={mockOnLoginHandler}
         />
       </BrowserRouter>
     );

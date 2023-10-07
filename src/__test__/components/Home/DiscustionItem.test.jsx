@@ -67,7 +67,7 @@ describe("DiscustionItem component", () => {
       avatar: "https://generatephoto.com",
       name: "rizat",
     },
-    createdAt: new Date(),
+    createdAt: "2021-06-21T07:00:00.000Z",
     upVotesBy: [],
     downVotesBy: [],
     totalComments: 3,
