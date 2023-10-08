@@ -3,7 +3,7 @@
         "browser": true,
         "es2021": true,
         "node": true,
-        "cypress/global": true
+        "cypress/globals": true
     },
     "extends": [
         "google",
@@ -34,6 +34,9 @@
         "curly": "off",
         "react/jsx-key": "off",
         "no-invalid-this": "off",
-        "space-before-function-paren":"off"
+        "space-before-function-paren":"off",
+        "linebreak-style": "off",
+        "spaced-comment": "off",
+        "eol-last": "off"
     }
 }
