@@ -25,3 +25,5 @@ dist-ssr
 
 .vscode
 package-lock.json
+screenshot
+*.zip
